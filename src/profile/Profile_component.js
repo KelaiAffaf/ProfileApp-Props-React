@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 
+
 const Profile_component = ({ fullName, bio, profession, handleName, children }) => {
     const styleProfile = {
         color: '#43658b', display: 'flex', margin: "40px 60px",
